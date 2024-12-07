@@ -1,11 +1,13 @@
 {
-    "name": "template-nodejs",
-    "version": "1.0.0",
-    "description": "",
-    "devDependencies": {},
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC"
-  }
+  "name": "template-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
