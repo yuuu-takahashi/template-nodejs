@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
+    "eslint": "8",
     "prettier": "^3.4.2"
   },
   "scripts": {

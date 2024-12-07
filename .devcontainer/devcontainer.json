@@ -11,13 +11,23 @@
   ],
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode"],
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ms-azuretools.vscode-docker"
+      ],
       "settings": {
         "editor.tabSize": 2,
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "explicit",
+          "source.fixAll.eslint": "explicit"
+        },
+        "eslint.validate": ["javascript"],
+        "eslint.format": false
       }
     }
   }
