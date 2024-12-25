@@ -1,22 +1,21 @@
 # template-nodejs
 
 このリポジトリはNode.jsのテンプレートプロジェクトです。
+このプロジェクトは、[Dev Container](https://code.visualstudio.com/docs/devcontainers/containers)での利用を想定した構成になっています。
 
-## 開発環境のセットアップ
+## 必要なツール
 
-### 前提条件
+- [VS Code](https://code.visualstudio.com/)
+- [Docker](https://www.docker.com/ja-jp/)
+- VS Codeの[Dev Containers拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-- [VS Code](https://code.visualstudio.com/)がインストール済みであること
-- [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)がインストール済みであること
-- [Docker](https://www.docker.com/ja-jp/)がインストール済みであること
+## 開発環境の準備
 
-### セットアップ手順
+1. リポジトリをクローン
 
-```bash
-git clone git@github.com:yuuu-takahashi/template-nodejs.git
-cd template-nodejs
-```
+   ```bash
+   git clone git@github.com:yuuu-takahashi/template-nodejs.git
+   cd template-nodejs
+   ```
 
-### Dev Containerの起動
-
-VS Codeの左下「><」アイコンをクリックし、「Remote-Containers: Reopen in Container」を選択して起動します。
+2. VS Codeのの左下「><」アイコンをクリックし、「Remote-Containers: Reopen in Container」を選択し、起動します。
