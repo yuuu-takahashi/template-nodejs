@@ -1,5 +1,5 @@
 {
-  "name": "Node.js",
+  "name": "template-node",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
@@ -21,12 +21,7 @@
         "editor.codeActionsOnSave": {
           "source.fixAll": "explicit"
         },
-<<<<<<< Updated upstream
         "eslint.validate": ["javascript"]
-=======
-        "eslint.validate": ["javascript"],
-        "eslint.format.enable": false
->>>>>>> Stashed changes
       }
     }
   }
