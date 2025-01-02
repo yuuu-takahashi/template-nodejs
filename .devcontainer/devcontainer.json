@@ -11,11 +11,7 @@
   ],
   "customizations": {
     "vscode": {
-      "extensions": [
-        "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint",
-        "ms-azuretools.vscode-docker"
-      ],
+      "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"],
       "settings": {
         "editor.tabSize": 2,
         "files.trimTrailingWhitespace": true,
@@ -25,7 +21,12 @@
         "editor.codeActionsOnSave": {
           "source.fixAll": "explicit"
         },
+<<<<<<< Updated upstream
         "eslint.validate": ["javascript"]
+=======
+        "eslint.validate": ["javascript"],
+        "eslint.format.enable": false
+>>>>>>> Stashed changes
       }
     }
   }
